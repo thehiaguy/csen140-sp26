@@ -8,7 +8,9 @@
       "Bash(pip index *)",
       "Bash(pip uninstall *)",
       "Bash(python -c \"import json; nb=json.load\\(open\\('c:/Users/zp123_2zkvvkz/projects/csen-140-sp26/p1.ipynb'\\)\\); print\\(len\\(nb['cells']\\), 'cells'\\); [print\\(i, nb['cells'][i]['cell_type']\\) for i in range\\(len\\(nb['cells']\\)\\)]\")",
-      "Bash(python -c \"import json; nb=json.load\\(open\\('c:/Users/zp123_2zkvvkz/projects/csen-140-sp26/p1.ipynb'\\)\\); [print\\(i, nb['cells'][i].get\\('id','NO_ID'\\)\\) for i in range\\(len\\(nb['cells']\\)\\)]\")"
+      "Bash(python -c \"import json; nb=json.load\\(open\\('c:/Users/zp123_2zkvvkz/projects/csen-140-sp26/p1.ipynb'\\)\\); [print\\(i, nb['cells'][i].get\\('id','NO_ID'\\)\\) for i in range\\(len\\(nb['cells']\\)\\)]\")",
+      "Bash(python -c \"import docx; print\\('python-docx available'\\)\")",
+      "Bash(python generate_writeup.py)"
     ]
   }
 }

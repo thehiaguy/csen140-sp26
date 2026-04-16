@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(nvidia-smi)",
+      "Bash(python -c \"import cupy; print\\('CuPy version:', cupy.__version__\\)\")",
+      "Bash(python -c \"import torch; print\\('PyTorch:', torch.__version__, '| CUDA available:', torch.cuda.is_available\\(\\)\\)\")",
+      "Bash(pip install *)",
+      "Bash(pip index *)",
+      "Bash(pip uninstall *)",
+      "Bash(python -c \"import json; nb=json.load\\(open\\('c:/Users/zp123_2zkvvkz/projects/csen-140-sp26/p1.ipynb'\\)\\); print\\(len\\(nb['cells']\\), 'cells'\\); [print\\(i, nb['cells'][i]['cell_type']\\) for i in range\\(len\\(nb['cells']\\)\\)]\")",
+      "Bash(python -c \"import json; nb=json.load\\(open\\('c:/Users/zp123_2zkvvkz/projects/csen-140-sp26/p1.ipynb'\\)\\); [print\\(i, nb['cells'][i].get\\('id','NO_ID'\\)\\) for i in range\\(len\\(nb['cells']\\)\\)]\")"
+    ]
+  }
+}

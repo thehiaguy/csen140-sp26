@@ -12,7 +12,16 @@
       "Bash(python -c \"import docx; print\\('python-docx available'\\)\")",
       "Bash(python generate_writeup.py)",
       "Bash(python -c \"import sys,json; nb=json.load\\(sys.stdin\\); cell=nb['cells'][18]; print\\(''.join\\(o.get\\('text',''\\) for o in cell['outputs']\\)\\)\")",
-      "Bash(python -c ' *)"
+      "Bash(python -c ' *)",
+      "Bash(python -c \"import sentence_transformers; print\\('sentence-transformers:', sentence_transformers.__version__\\)\")",
+      "Bash(python -c \"import gensim; print\\('gensim:', gensim.__version__\\)\")",
+      "Bash(python -c \"import transformers; print\\('transformers:', transformers.__version__\\)\")",
+      "Bash(python -c \"import torch; print\\('torch:', torch.__version__\\)\")",
+      "Bash(pip list *)",
+      "Bash(python -c \"import sklearn; print\\('sklearn:', sklearn.__version__\\)\")",
+      "Bash(python *)",
+      "Bash(python -c \"import pdfplumber; pdf = pdfplumber.open\\('pr1.pdf'\\); [print\\(p.extract_text\\(\\)\\) for p in pdf.pages]\")",
+      "Bash(python -c \"import PyPDF2; r=PyPDF2.PdfReader\\('pr1.pdf'\\); [print\\(p.extract_text\\(\\)\\) for p in r.pages]\")"
     ]
   }
 }

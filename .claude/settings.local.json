@@ -21,7 +21,8 @@
       "Bash(python -c \"import sklearn; print\\('sklearn:', sklearn.__version__\\)\")",
       "Bash(python *)",
       "Bash(python -c \"import pdfplumber; pdf = pdfplumber.open\\('pr1.pdf'\\); [print\\(p.extract_text\\(\\)\\) for p in pdf.pages]\")",
-      "Bash(python -c \"import PyPDF2; r=PyPDF2.PdfReader\\('pr1.pdf'\\); [print\\(p.extract_text\\(\\)\\) for p in r.pages]\")"
+      "Bash(python -c \"import PyPDF2; r=PyPDF2.PdfReader\\('pr1.pdf'\\); [print\\(p.extract_text\\(\\)\\) for p in r.pages]\")",
+      "Bash(del *)"
     ]
   }
 }
